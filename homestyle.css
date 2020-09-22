@@ -1,1 +1,12 @@
+li.navitem {
+    display: block;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    list-style: none;
+}
 
+li.navitem:hover {
+    background-color: black;
+    color: white;
+}
