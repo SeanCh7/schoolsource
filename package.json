@@ -1,0 +1,22 @@
+{
+  "name": "schoolsource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "homepage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanCh7/schoolsource.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanCh7/schoolsource/issues"
+  },
+  "homepage": "https://github.com/SeanCh7/schoolsource#readme",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  }
+}
