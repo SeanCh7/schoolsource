@@ -1,3 +1,27 @@
+/*
+O))))))))                    O))                                        O))              O))  
+O))       O)                 O))                                        O))          O)  O))  
+O))         O) O)))   O))    O))         O))     O))))    O))           O))O)) O))     O)O) O)
+O))))))  O)) O))    O)   O)) O)) O))   O))  O)) O))     O)   O))        O)) O))  O))O))  O))  
+O))      O)) O))   O))))) O))O))   O))O))   O))   O))) O))))) O))       O)) O))  O))O))  O))  
+O))      O)) O))   O)        O))   O))O))   O))     O))O)               O)) O))  O))O))  O))  
+O))      O))O)))     O))))   O)) O))    O)) O)))O)) O))  O))))          O))O)))  O))O))   O))
+*/
+                                                                                              
+var firebase = require('firebase');
+var firebaseui = require('firebaseui');
+
+
+/*
+O)))))))) O))                   O))                            
+O))       O))                   O))                            
+O))       O))   O))       O)))O)O) O)O) O)))   O))    O)) O))  
+O))))))   O)) O)   O))  O))     O))   O))    O))  O))  O))  O))
+O))       O))O))))) O))O))      O))   O))   O))    O)) O))  O))
+O))       O))O)         O))     O))   O))    O))  O))  O))  O))
+O))))))))O)))  O))))      O)))   O)) O)))      O))    O)))  O))
+*/
+
 const { app, BrowserWindow } = require('electron')
 
 function createWindow () {
