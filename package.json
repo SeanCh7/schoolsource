@@ -18,5 +18,8 @@
   "homepage": "https://github.com/SeanCh7/schoolsource#readme",
   "devDependencies": {
     "electron": "^10.1.2"
+  },
+  "dependencies": {
+    "firebaseui": "^4.6.1"
   }
 }
