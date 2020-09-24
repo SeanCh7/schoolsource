@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="homestyle.css">
+    <title>SchoolSource Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ol>
+                <li class="navitem active"><a class="navitem" href="index.html">Home</a></li>
+                <li class="navitem"><a class="navitem" href="account.html">Account Linking</a></li>
+            </ol>
+        </nav>
+    </header>
   <meta charset="UTF-8">
   <title>SchoolSource Home</title>
 </head>
@@ -17,5 +31,28 @@
       </ui>
     </navbar>
   </header>
-  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyD1BtC7KL9ji1v7rqImSnO4QMJ04ENoenQ",
+    authDomain: "schoolsource-993da.firebaseapp.com",
+    databaseURL: "https://schoolsource-993da.firebaseio.com",
+    projectId: "schoolsource-993da",
+    storageBucket: "schoolsource-993da.appspot.com",
+    messagingSenderId: "983033774486",
+    appId: "1:983033774486:web:ed72337125829b07cf5db7",
+    measurementId: "G-4Y8D480TK0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
