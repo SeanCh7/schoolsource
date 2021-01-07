@@ -7,19 +7,8 @@
 </head>
 
 <body>
-<<<<<<< Updated upstream
-    <header class="header">
-        <nav>
-            <ol>
-                <li class="navitem active"><a class="navitem" href="index.html">Home</a></li>
-                <li class="navitem"><a class="navitem" href="account.html">Account Linking</a></li>
-            </ol>
-        </nav>
-    </header>
-=======
-  <header>
+  <header class="header">
     <h1 class="pagetitle">Home<h1>
-    
     <navbar>
       <ui>
         <li class="navitem">Home</li>
@@ -28,8 +17,15 @@
       </ui>
     </navbar>
   </header>
+  <!-- The surrounding HTML is left untouched by FirebaseUI.
+     Your app may use that space for branding, controls and other customizations.-->
+<div id="firebaseui-auth-container"></div>
+<div id="loader">Loading...</div>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+
+
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -52,5 +48,4 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
->>>>>>> Stashed changes
 </body>
